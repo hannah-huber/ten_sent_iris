@@ -1,0 +1,140 @@
+# This .gitignore file was written through using gen AI!
+
+# ==========================================
+# Operating System Files
+# ==========================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.VolumeIcon.icns
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ==========================================
+# Quarto
+# ==========================================
+
+# Generated website output
+_site/
+.quarto/
+
+# Quarto temporary files
+*_cache/
+*_files/
+
+# ==========================================
+# Python
+# ==========================================
+
+# Bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# Distribution and packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
+
+# Python coverage
+.coverage
+.coverage.*
+htmlcov/
+
+# ==========================================
+# R
+# ==========================================
+
+# R workspace and history
+.Rhistory
+.RData
+.Ruserdata
+
+# RStudio project files
+.Rproj.user/
+*.Rproj.user
+
+# R package/check artifacts
+.Rcheck/
+*.Rcheck/
+*.tar.gz
+
+# ==========================================
+# Jupyter Notebooks / JupyterLab
+# ==========================================
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Jupyter runtime files
+.jupyter/
+jupyter_runtime/
+
+# ==========================================
+# IDEs and Editors
+# ==========================================
+
+# Visual Studio Code
+.vscode/
+
+# PyCharm / JetBrains
+.idea/
+*.iml
+
+# RStudio
+.Rproj.user/
+
+# ==========================================
+# Temporary and Log Files
+# ==========================================
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*.log
+*.orig
+*~
+
+# ==========================================
+# Environment Variables and Secrets
+# ==========================================
+
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+
+/.quarto/
+**/*.quarto_ipynb
